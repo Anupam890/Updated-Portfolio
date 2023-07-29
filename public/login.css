@@ -6,6 +6,35 @@
 
 body {
     background-color: #0E1630;
-    width: 100vw;
-    height: 100vh;
+    color: #fff;
+    font-family: "poppins",sans-serif;
+
+}
+
+.form-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    width: 100%;
+    height: 100%;
+
+}
+ #btn {
+    width: 100%;
+    margin-top: 5px;
+}
+.form-section .upper-form {
+    width: 200px;
+    height: 200px;
+}
+.form-section form label > i {
+    padding: 2px;
+}
+.form-section .upper-form > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
 }
